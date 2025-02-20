@@ -1,9 +1,6 @@
-streamlit==1.38.0
-pandas==1.5.3
-numpy==1.23.5
-faiss-cpu==1.7.3
-tiktoken==0.3.3
-langchain==0.0.171
-langchain-groq @ git+https://github.com/hwchase17/langchain-groq.git@main
-openai==1.58.1
-python-dotenv==1.0.1
+faiss_cpu==1.9.0
+langchain==0.3.19
+langchain_groq==0.2.4
+numpy==2.2.3
+pandas==2.2.3
+tiktoken==0.9.0
