@@ -127,7 +127,7 @@ class FilteredRetriever(BaseRetriever):
 @st.cache_resource(show_spinner=True)
 def load_qa_chain() -> RetrievalQA:
     # Caminho do arquivo Excel (certifique-se de que o arquivo existe neste caminho)
-    file_path = "/Users/tarikhadi/Desktop/Base para Analisar Resultado Obtido Valido.xlsx"
+    file_path = "Base para Analisar Resultado Obtido Valido.xlsx"
     if not os.path.exists(file_path):
         st.error(f"Arquivo não encontrado: {file_path}")
         st.stop()
